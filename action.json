@@ -1,0 +1,16 @@
+{
+    "versionLabel": "1.0.0",
+    "agentInfo": {
+        "languageCode": "en-US",
+        "projectId": "ngbot",
+        "voiceName": "female_2"
+    },
+    "actions": [{
+        "initialTrigger": {
+            "intent": "assistant.intent.action.MAIN"
+        },
+        "httpExecution": {
+            "url": "https://e50ed33f.ngrok.io"
+        }
+    }]
+}
